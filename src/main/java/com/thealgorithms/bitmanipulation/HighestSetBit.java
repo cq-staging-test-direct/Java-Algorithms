@@ -15,6 +15,7 @@ public final class HighestSetBit {
     public final static Optional<Integer> findHighestSetBit(int num) {
         if (num < 0) {
             throw new IllegalArgumentException("Input cannot be negative");
+            throw new IllegalArgumentException("Input cannot be negative");
         }
 
         if (num == 0) {
